@@ -89,9 +89,10 @@ p{
 
 }
 .skills{
-    color: #EFE3C2;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 16px;
+    color: #EFE3C2;
+    text-shadow: 1px 1px 2px #000000; 
 }
 ul {
     list-style-type: none; 
@@ -101,7 +102,6 @@ ul {
 ul li {
     position: relative;
     padding-left: 30px; 
-    color: white; 
     font-size: 1.3rem;
 }
 
@@ -118,6 +118,20 @@ ul li::before {
 }
 .skilltab{
     padding-left: 20px;
+    color: #123524;
+    text-shadow: 1px 1px 2px #85A947;
+}
+
+.projects{
+    padding-left: 20px;
+    color: #123524;
+    text-shadow: 1px 1px 2px #85A947;
+}
+
+.tools{
+    padding-left: 20px;
+    color: #123524;
+    text-shadow: 1px 1px 2px #85A947;
 }
 
 @media screen and (max-width: 320px) {
