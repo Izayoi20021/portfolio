@@ -5,28 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Basic CRUD</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script> <!-- ✅ Added Tailwind -->
 </head>
-<body>
-    <div class="basic_crud" style="background-color: #3E7B27; margin: 10px; padding: 10px;border-radius: 15px;">
-        <h1 class="skilltab">Basic CRUD</h1>
+<body class="overflow-x-hidden">
+
+    <div class="basic_crud bg-[#3E7B27] m-2 p-2 rounded-[15px]">
+        <h1 class="skilltab text-white text-2xl pl-4">Basic CRUD</h1>
         <br>
-        <a style="padding-left: 60px;" href="https://github.com/Izayoi20021/basiccrud/tree/testing"><i>Source Code</i></a>
+
+        <a href="https://github.com/Izayoi20021/basiccrud/tree/testing" class="pl-[60px] text-blue-500 underline italic">Source Code</a>
+
 
         <br>
-        <h2 style="padding-left: 40px; color:#123524; text-shadow:  1px 1px 2px #85A947;">Technologies used:</h2>
-        <ul style="color: #EFE3C2; text-shadow: 1px 1px 2px #000000; padding-left: 60px; font-size:small;" >
+        <h2 class="pl-10 text-[#123524] text-shadow text-lg mt-4" style="text-shadow: 1px 1px 2px #85A947;">Technologies used:</h2>
+        <ul class="pl-[60px] text-[#EFE3C2] text-sm" style="text-shadow: 1px 1px 2px #000000;">
             <li>React</li>
             <li>PHP</li>
-            <li>Mysql</li>
+            <li>MySQL</li>
         </ul>
         <br>
-        <h2 style="padding-left: 40px; color:#123524; text-shadow:  1px 1px 2px #85A947;">Screenshots:</h2>
-        <img src="basic_crud/image (1).png" alt="Basic CRUD Screenshot 1" style="padding-left: 60px; width: 600px;">
-        <img src="basic_crud/image (2).png" alt="Basic CRUD Screenshot 2" style="padding-left: 10px; width: 600px;">
-        <br><br>
-        <img src="basic_crud/image (3).png" alt="Basic CRUD Screenshot 3" style="padding-left: 60px; width: 600px;">
-        <img src="basic_crud/image (4).png" alt="Basic CRUD Screenshot 4" style="padding-left: 10px; width: 600px;">
-        <br><br>
-        <img src="basic_crud/image (5).png" alt="Basic CRUD Screenshot 5" style="padding-left: 60px; width: 600px;">
+
+        <h2 class="pl-10 text-[#123524] text-lg" style="text-shadow: 1px 1px 2px #85A947;">Screenshots:</h2>
+
+        <div class="flex flex-wrap justify-center gap-y-6 px-4">
+            <img src="basic_crud/image (1).png" alt="Basic CRUD Screenshot 1" class="w-full max-w-[600px] sm:pl-16" />
+            <img src="basic_crud/image (2).png" alt="Basic CRUD Screenshot 2" class="w-full max-w-[600px] sm:pl-2" />
+            <img src="basic_crud/image (3).png" alt="Basic CRUD Screenshot 3" class="w-full max-w-[600px] sm:pl-16" />
+            <img src="basic_crud/image (4).png" alt="Basic CRUD Screenshot 4" class="w-full max-w-[600px] sm:pl-2" />
+            <img src="basic_crud/image (5).png" alt="Basic CRUD Screenshot 5" class="w-full max-w-[600px] sm:pl-16" />
+        </div>
     </div>
+
+</body>
 </html>
